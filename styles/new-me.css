@@ -1,0 +1,101 @@
+*{  margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Header styles*/
+
+header
+{
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    height: 713px;
+    text-align: right;
+    
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 900;
+    padding: 216px 230px 0 779px;
+    width: 525px;
+}
+.descrition{
+    width: 525px;
+    padding: 24px 230px 24px 779px;
+    font-size: 16px;
+    color: #444343;
+}
+
+/*Button-primary styles*/
+
+.btn-primary{
+    background-color: #FF5959;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 18px;  
+    border: none;
+    margin-right: 230px;  
+}
+
+main{
+    max-width: 1074px;
+    margin-left: 230px;
+    
+}
+/*--Failures Section Style--*/
+
+.my-failures
+{
+    display:flex;
+    gap: 87px;
+    padding-top: 100px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.failures-content
+{
+    padding-top: 370px;
+}
+.fails-description{
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+
+
+/*---My plans section style*/
+
+
+.plans{
+text-align: center;
+padding: 150px 0;
+}
+.plans-content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 16px 0;
+}
+.plan-content{
+    font-size: 25px;
+    font-weight: 550;
+    color: #737272;
+}
+
+/*--Contact Section Styles--*/
+
+.contact
+{
+    background:linear-gradient(to left, rgba(255,0,0,0), rgb(245, 123, 41)),url(../images/watch.png);
+    height: 300px;
+} 
