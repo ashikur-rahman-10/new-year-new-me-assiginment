@@ -98,4 +98,77 @@ padding: 150px 0;
 {
     background:linear-gradient(to left, rgba(255,0,0,0), rgb(245, 123, 41)),url(../images/watch.png);
     height: 300px;
+    border-radius: 10px;
+    margin-bottom: 150px;
 } 
+.contact-title{
+    font-size: 40px;
+    font-weight: 700;
+    width: 700px;
+    padding: 45px 64px;
+    color: white;
+}
+#btn{
+    background-color:white;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(245, 123, 41);
+    border-radius: 5px;
+    padding: 13px 25px;  
+    border: none;
+}
+
+/*Footer Section Style*/
+
+footer{
+    height: 577px;
+    background-color: #151414;
+}
+
+.footer-elements
+{
+    max-width: 1074;
+    padding: 130px 230px 5px 230px;
+    display: flex;
+    gap: 200px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 25px;
+}
+.footer-discription{
+    font-size: 16px;
+    font-weight: 600;
+    width: 485px;
+    color: white;
+    padding-bottom: 25px;
+
+}
+
+.subs-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 50px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #151414;
+    padding:15px 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subs-btn{
+    color: #FF5959;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin-right: 280px;
+
+}
