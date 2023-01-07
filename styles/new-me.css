@@ -45,7 +45,7 @@ main{
 }
 /*--Failures Section Style--*/
 
-.my-failures
+.my-failures ,.my-achievement
 {
     display:flex;
     gap: 87px;
@@ -58,18 +58,18 @@ main{
     padding-bottom: 24px;
 }
 
-.failures-content
+.failures-content , .achievement-content
 {
     padding-top: 370px;
 }
-.fails-description{
+.fails-description , .achievement-description
+{
     font-size: 16px;
     color: #444343;
     padding-bottom: 16px;
 }
 
 
-/*---My plans section style*/
 
 
 .plans{
