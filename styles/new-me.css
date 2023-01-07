@@ -1,5 +1,6 @@
 *{  margin: 0;
     font-family: 'Work Sans', sans-serif;
+    max-width: 1534px;
 }
 
 /*Header styles*/
@@ -8,6 +9,7 @@ header
 {
     background-image: url(../images/banner/banner2.png);
     background-size: cover;
+    
     height: 713px;
     text-align: right;
     
